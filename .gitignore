@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RL Specific
+# Trained models (keep .pth files for showcase)
+# *.pth
+# *.pt
+
+# Environment recordings
+videos/
+recordings/
+logs/
+
+# Data
+data/
+*.pkl
+*.pickle
+
+# TensorBoard
+runs/
+tensorboard_logs/
+
+# Large files
+*.zip
+*.tar.gz
